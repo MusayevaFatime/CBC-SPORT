@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="az" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBC TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="top-flash-bar">
+        <div class="flash-title">⚡ TƏCİLİ XƏBƏR</div>
+        <div class="flash-marquee">
+            <marquee scrollamount="5">
+                🚨 TRANSFER BOMBASI: Erling Haaland üçün fantastik 200M€ təklif edildi! | 🏆 Çempionlar Liqasında yeni püşkatma qaydaları təsdiqləndi! | 📈 "Qarabağ" FK Avropa reytinqində daha 3 pillə yüksəldi!
+            </marquee>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="main-logo" id="logo-trigger">
+                MATCH<span class="neon-cyan">DAY</span><span class="cyan-dot">.AZ</span>
+                <span class="sub-badge">THE PREMIUM SPORTS MATRIX</span>
+            </div>
+            
+            <div class="search-engine-box">
+                <span class="search-lens">🔍</span>
+                <input type="text" id="football-search" placeholder="Xəbər, klub, transfer və ya oyunçu axtarın...">
+            </div>
+
+            <nav class="category-nav">
+                <button class="nav-tab active" data-filter="all">Baş Səhifə</button>
+                <button class="nav-tab" data-filter="AVROKUBOK">Turnirlər</button>
+                <button class="nav-tab" data-filter="TRANSFER">Transferlər</button>
+                <button class="nav-tab" data-filter="ANALİZ">Taktiki Analiz</button>
+                <button class="btn-live" id="live-btn-trigger"><span class="live-dot"></span> CANLI TV</button>
+                <button class="btn-toggle" id="theme-btn-trigger">🌓</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="global-container main-layout-grid">
+        
+        <section class="left-content-stream">
+            
+            <div id="main-news-group">
+                <div class="premium-hero-card" data-filter-type="AVROKUBOK" data-title="Çempionlar Liqasında Möhtəşəm Final Gecəsi" data-cat="MÖVSÜMÜN FİNALI" data-views="25.6K" data-img="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80" data-body="Avropanın ən böyük futbol gecəsi geridə qaldı. Gözlənildiyindən daha gərgin keçən matçda komandalar son saniyəyə qədər taktiki nizamı pozmadılar. Xüsusilə orta sahədə qurulan asimmetrik bloklar və sürətli əks-hücumlar kubokun taleyini həll etdi. Ekspertlərin geniş taktiki analizi və bütün gizli detallar yalnız bizim portalda.">
+                    
+                    <span class="premium-tag">⚡ ULTRA EKSKLÜZİV</span>
+                    <div class="hero-overlay-meta">
+                        <span class="hero-cat">MÖVSÜMÜN FİNALI</span>
+                        <h1>ÇEMPİONLAR LİQASINDA MÖHTƏŞƏM FİNAL GECƏSİ</h1>
+                        <p>Avropanın ən böyük futbol gecəsi geridə qaldı... Taktiki analizlər və sızmalar...</p>
+                    </div>
+                </div>
+
+                <div class="section-divider">
+                    <h2>🔥 Günün Aktual Xəbər Matrisi <span class="sub-text">| Ən son məlumatlar anında yenilənir</span></h2>
+                </div>
+
+                <div class="football-matrix">
+                    
+                    <div class="premium-card" data-filter-type="TRANSFER" data-title="Barselona Yeni Transferini Açıqladı" data-cat="TRANSFER" data-views="8.4K" data-img="https://images.unsplash.com/photo-1544698310-74ea9d1c8258?auto=format&fit=crop&w=600&q=80" data-body="Barselona rəhbərliyi gənc ulduzun transferini rəsmən elan etdi. Müqavilənin detalları və illik maaş göstəriciləri kataloniyalı azarkeşləri xeyli həyəcanlandırıb. Taktiki blokda futbolçunun hansı mövqedə oynayacağı artıq dəqiqdir.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1544698310-74ea9d1c8258?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-transfer">TRANSFER</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 20.05.2026 • ⏳ 4 dəq • 👁️ 8.4K</div>
+                            <h3>Barselona Yeni Transferini Açıqladı</h3>
+                            <p>Barselona yeni transferini rəsmən elan etdi, tərəfdarların gözləntiləri pik həddə çatıb...</p>
+                        </div>
+                    </div>
+
+                    <div class="premium-card" data-filter-type="ANALİZ" data-title="Real Madrid'in Taktiki Analizi" data-cat="ANALİZ" data-views="12.1K" data-img="https://images.unsplash.com/photo-1504155611049-217a55707eba?auto=format&fit=crop&w=600&q=80" data-body="Karlo Ançelottinin son matçda tətbiq etdiyi asimmetrik 4-3-3 sxemi rəqibin bütün müdafiə xəttini darmadağın etdi. Orta sahədəki presinq zonaları və cinah müdafiəçilərinin hücuma dəstəyi geniş analizimizdə.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1504155611049-217a55707eba?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-analysis">ANALİZ</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 21.05.2026 • ⏳ 7 dəq • 👁️ 12.1K</div>
+                            <h3>Real Madrid'in Taktiki Analizi</h3>
+                            <p>Real Madrid'in taktiki sxemindəki gizli dəyişikliklər və analitiklərinin xüsusi hesabatı...</p>
+                        </div>
+                    </div>
+
+                    <div class="premium-card" data-filter-type="AVROKUBOK" data-title="Milli Komandada Yeni Baş Məşqçi" data-cat="MİLLİ" data-views="9.5K" data-img="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=600&q=80" data-body="Milli komandanın sükanı arxasına keçən yeni baş məşqçi ilk mətbuat konfransında sərt bəyanatlarla çıxış etdi. Komandada ciddi intizam qaydalarının yaradılacağı və gənclərə üstünlük veriləcəyi bildirildi.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-match">MİLLİ</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 19.05.2026 • ⏳ 5 dəq • 👁️ 9.5K</div>
+                            <h3>Milli Komandada Yeni Baş Məşqçi</h3>
+                            <p>Milli komandanın strategiyası tamamilə dəyişir. Yeni baş məşqçidən kəskin bəyanatlar...</p>
+                        </div>
+                    </div>
+
+                    <div class="premium-card" data-filter-type="ANALİZ" data-title="Pep Qvardiolanın Gizli Hücum Planı" data-cat="ANALİZ" data-views="14.2K" data-img="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=600&q=80" data-body="Mançester Sitinin son məşqindən sızan görüntülər rəqibləri qorxuya salıb. Qvardiola saxta doqquzluq mövqeyində tam fərqli bir asinxron hərəkətlilik sınaqdan keçirir.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-analysis">ANALİZ</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 18.05.2026 • ⏳ 6 dəq • 👁️ 14.2K</div>
+                            <h3>Mançester Siti-də Şok Sızma</h3>
+                            <p>Pep Qvardiolanın növbəti böyük matç üçün hazırladığı gizli taktiki plan ifşa olundu...</p>
+                        </div>
+                    </div>
+
+                    <div class="premium-card" data-filter-type="AVROKUBOK" data-title="A Seriyasında Çempionluq Yarışı" data-cat="TURNİRLƏR" data-views="6.1K" data-img="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=600&q=80" data-body="İtaliya çempionatında son 3 turun oyunları dramatik anlara səhnə oldu. Lider xal itirdiyi üçün turnir cədvəlindəki xal fərqi minimuma enib. Hər an hər şey dəyişə bilər.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-match">TURNİR</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 17.05.2026 • ⏳ 4 dəq • 👁️ 6.1K</div>
+                            <h3>A Seriyasında Gərgin Gecə</h3>
+                            <p>Liderlərin xal itkisi turnir cədvəlini alt-üst etdi. İtaliyada növbəti oyunlar həlledicidir...</p>
+                        </div>
+                    </div>
+
+                    <div class="premium-card" data-filter-type="TRANSFER" data-title="Mbappe üçün Rekord Müqavilə" data-cat="TRANSFER" data-views="19.8K" data-img="https://images.unsplash.com/photo-1600250395178-40da752e558e?auto=format&fit=crop&w=600&q=80" data-body="Dünya futbolunun ən bahalı oyunçularından biri üçün astronomik təklif hazırlanıb. Müqavilənin imzalanması an məsələsidir və bu, ilin ən böyük transfer bombası hesab olunur.">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1600250395178-40da752e558e?auto=format&fit=crop&w=600&q=80');">
+                            <span class="card-badge bg-transfer">TRANSFER</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-inner-meta">📅 16.05.2026 • ⏳ 8 dəq • 👁️ 19.8K</div>
+                            <h3>İlin Ən Böyük Transfer Bombası</h3>
+                            <p>Masadakı rəqəmlər hər kəsi şoka saldı. Rekord qiymətə transfer rəsmiləşmək üzrədir...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detailed-reader-box" id="async-reader">
+                <button class="back-to-grid-btn" id="close-reader">⬅ GERİ QAYIT</button>
+                <div class="reader-meta"><span id="reader-category">ANALİZ</span> • <span id="reader-views">0</span> baxış</div>
+                <h2 id="reader-headline"></h2>
+                <div class="reader-hero-img-wrapper"></div>
+                <p class="reader-full-text" id="reader-body-content"></p>
+            </div>
+
+        </section>
+
+        <aside class="portal-sidebar">
+            <div class="premium-sidebar-box neon-border-blue">
+                <div class="sidebar-box-header">
+                    <h3>⚽ CANLI MATÇLAR <span class="more-dots">•••</span></h3>
+                </div>
+                <div class="live-match-widget">
+                    <span class="league-name">🏆 Champions League</span> <span class="live-blink-tag">LIVE</span>
+                    <div class="match-vs-row">
+                        <span class="team-title">Madrid</span>
+                        <span class="live-score-badge">2 - 1</span>
+                        <span class="team-title">Bayern</span>
+                    </div>
+                    <p class="match-status-live">⏱️ 74' İkinci Hissə</p>
+                </div>
+            </div>
+
+            <div class="premium-sidebar-box">
+                <div class="sidebar-box-header">
+                    <h3>📊 GÜNÜN STRATEJİ SORĞUSU</h3>
+                </div>
+                <p class="poll-question">Which team will win?</p>
+                <div class="smart-poll-system">
+                    <div class="poll-row" onclick="votePoll(this)">
+                        <span>Real Madrid</span> <span class="poll-percentage">47%</span>
+                    </div>
+                    <div class="poll-row" onclick="votePoll(this)">
+                        <span>Bayern</span> <span class="poll-percentage">53%</span>
+                    </div>
+                    <span class="total-votes">72 səsvermə sorğusu</span>
+                </div>
+            </div>
+
+            <div class="premium-sidebar-box">
+                <div class="sidebar-box-header">
+                    <h3>🔥 TRANSFER ŞAYİƏLƏRİ DETEKTORU</h3>
+                </div>
+                <div class="rumor-list">
+                    <div class="rumor-item">
+                        <div class="rumor-meta">🤝 Davies -> Real Madrid <span class="probability high">29.90%</span></div>
+                    </div>
+                    <div class="rumor-item">
+                        <div class="rumor-meta">🤝 Davies -> Real Madrid <span class="probability high">26.80%</span></div>
+                    </div>
+                    <div class="rumor-item">
+                        <div class="rumor-meta">🤝 Gayenn -> Real Madrid <span class="probability medium">39.50%</span></div>
+                    </div>
+                    <div class="rumor-item">
+                        <div class="rumor-meta">🤝 Bayern -> Bayern <span class="probability low">17.50%</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="premium-sidebar-box">
+                <div class="sidebar-box-header">
+                    <h3>🏆 TURNİR CƏDVƏLİ</h3>
+                </div>
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr><th>#</th><th>Turnir</th><th>G</th><th>G</th><th>T</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>🇪🇸 La Liga</td><td>16</td><td>2</td><td>13</td></tr>
+                        <tr><td>2</td><td>🇩🇪 Ka Liga</td><td>13</td><td>2</td><td>13</td></tr>
+                        <tr><td>3</td><td>🇦🇿 Qarabağ</td><td>13</td><td>1</td><td>6</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-top-glow-line"></div>
+        <div class="global-container">
+            <div class="footer-newsletter-row">
+                <div class="newsletter-text">
+                    <h3>NEWSLETTER MATRIXƏ QOŞULUN</h3>
+                    <p>Ən son idman analizləri və gizli detallar birbaşa e-poçtunuza göndərilsin.</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email ünvanınızı daxil edin" id="newsletter-email">
+                    <button class="btn-subscribe" onclick="subscribeNewsletter()">ABUNƏ OL</button>
+                </div>
+            </div>
+            
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">MATCH<span class="neon-cyan">DAY</span>.AZ</div>
+                    <p class="brand-desc">Azərbaycanın ilk premium idman analitika matrisi.</p>
+                    <div class="system-status">
+                        <span class="status-dot"></span> SECURE / ONLINE
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>TOP TURNİRLƏR</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Top Turnirlər</a></li>
+                        <li><a href="#">Boltara</a></li>
+                        <li><a href="#">Qətiyyən nəsə</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PLATFORMA VƏ HÜQUQ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Platforma və Hüquq</a></li>
+                        <li><a href="#">Platforma və icma əlaqələri</a></li>
+                        <li><a href="#">Abunə şərtləri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SOSİAL MATRIX VƏ ŞƏBƏKƏ</h4>
+                    <div class="footer-social-icons">
+                        <a href="#" class="social-icon">Telegram</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">Youtube</a>
+                        <a href="#" class="social-icon">X</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-rights">
+                <p>Copyright © 2026 Matchday.AZ - All Rights Reserved</p>
+                <p class="crypto-loading-text">Information Security Layer Enabled</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-backdrop" id="live-modal">
+        <div class="modal-window small-modal">
+            <span class="modal-close-trigger" id="close-modal">&times;</span>
+            <h3 class="modal-title">📺 MATCHDAY LIVE STREAM</h3>
+            <div class="video-loading-sim">
+                <div class="pulse-loader"></div>
+                <p>Canlı yayım mərkəzi serverlərə bağlanır...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-notification" id="toast-notif">
+        🚀 <span id="toast-text">Abunəliyiniz uğurla tamamlandı! Xəbər matrisinə qoşuldunuz.</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
